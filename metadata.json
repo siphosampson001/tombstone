@@ -1,0 +1,6 @@
+{
+  "name": "Lowveld Skilled Craftsmens - Mawere Tombstones",
+  "description": "Specialists in custom granite tombstones, memorial headstones, precision cutting & polishing, kitchen tops, window sills, and masonry crafts in Chiredzi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

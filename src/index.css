@@ -1,0 +1,144 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', Georgia, serif;
+}
+
+.font-sans-clean {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* Card exact colors */
+.bg-card-red {
+  background-color: #dc2626;
+}
+.text-card-red {
+  color: #dc2626;
+}
+.border-card-red {
+  border-color: #dc2626;
+}
+
+.bg-card-blue {
+  background-color: #0052cc;
+}
+.text-card-blue {
+  color: #0052cc;
+}
+.border-card-blue {
+  border-color: #0052cc;
+}
+
+/* Zimbabwe Granite textures */
+.granite-black {
+  background: radial-gradient(circle at 30% 20%, #2a2c30 0%, #15171a 50%, #0d0e10 100%);
+  box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.15), 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+}
+
+.granite-grey {
+  background: radial-gradient(circle at 35% 25%, #4b5258 0%, #2f343a 60%, #1d2125 100%);
+}
+
+.granite-emerald {
+  background: radial-gradient(circle at 30% 20%, #17332c 0%, #0d1e1a 60%, #081210 100%);
+}
+
+.granite-red {
+  background: radial-gradient(circle at 30% 20%, #3e1b1b 0%, #2b1111 60%, #190909 100%);
+}
+
+/* Authentic carved lettering finishes */
+.engraved-gold {
+  color: #fbbf24;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.9), 0 0 8px rgba(245, 197, 66, 0.5);
+}
+
+.engraved-silver {
+  color: #e2e8f0;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.9), 0 0 8px rgba(255, 255, 255, 0.4);
+}
+
+.engraved-white {
+  color: #f8fafc;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.95);
+}
+
+/* Glassmorphism Design System */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 8px 32px 0 rgba(15, 23, 42, 0.06), inset 0 1px 0 0 rgba(255, 255, 255, 0.8);
+}
+
+.glass-panel-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.glass-panel-hover:hover {
+  background: rgba(255, 255, 255, 0.88);
+  border-color: rgba(220, 38, 38, 0.3);
+  box-shadow: 0 16px 40px -8px rgba(15, 23, 42, 0.12), inset 0 1px 0 0 rgba(255, 255, 255, 0.9);
+  transform: translateY(-2px);
+}
+
+.glass-panel-dark {
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4), inset 0 1px 0 0 rgba(255, 255, 255, 0.15);
+}
+
+.glass-panel-blue {
+  background: rgba(0, 82, 204, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 12px 36px -4px rgba(0, 82, 204, 0.35), inset 0 1px 0 0 rgba(255, 255, 255, 0.3);
+}
+
+.glass-panel-red {
+  background: rgba(220, 38, 38, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 12px 36px -4px rgba(220, 38, 38, 0.35), inset 0 1px 0 0 rgba(255, 255, 255, 0.3);
+}
+
+.glass-input {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(203, 213, 225, 0.8);
+}
+.glass-input:focus {
+  background: rgba(255, 255, 255, 0.98);
+  border-color: #dc2626;
+  box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.12);
+}
+
+.glass-pill {
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+/* Ambient gradient glows */
+.glow-orb-red {
+  background: radial-gradient(circle, rgba(220, 38, 38, 0.12) 0%, rgba(220, 38, 38, 0) 70%);
+}
+
+.glow-orb-blue {
+  background: radial-gradient(circle, rgba(0, 82, 204, 0.12) 0%, rgba(0, 82, 204, 0) 70%);
+}
+
+
